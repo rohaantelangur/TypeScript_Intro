@@ -3,24 +3,24 @@
 ### create a type name with a string
 let first_name: string = "Rohaan"
 
-#### create a type age with a number
+###  create a type age with a number
 let age: number = 25
 
-#### create a type isFetching with boolean 
+###  create a type isFetching with boolean 
 let isFetching: boolean = true
 
-#### create an array of numbers
+###  create an array of numbers
 let list1: number[] = [1, 2, 3];
 
-#### create an array of strings (using array constructor generic type)
+###  create an array of strings (using array constructor generic type)
 let list2: string[] = ["rohaan", "amit", "vishal"];
 
-#### create a tuple , which keeps a string as the first value, and boolean as the second
+###  create a tuple , which keeps a string as the first value, and boolean as the second
 let x: [string, boolean];
 x = ["hello", true];
 
-#### create an enum
-#### it should have User, SuperUser, Admin, SuperAdmin
+###  create an enum
+###  it should have User, SuperUser, Admin, SuperAdmin
 enum Color {
     User,
     SuperUser,
@@ -28,19 +28,19 @@ enum Color {
     SuperAdmin,
 }
 
-#### create a function that takes 2 arguments, x, y both numbers
-#### it should return the product of the 2 numbers
+###  create a function that takes 2 arguments, x, y both numbers
+###  it should return the product of the 2 numbers
 function product(x: number, y: number): number {
     return x * y
 }
 
-#### create a function that takes 2 arguments, x ,y both numbers,
-#### it should divide output ( x / y )
+###  create a function that takes 2 arguments, x ,y both numbers,
+###  it should divide output ( x / y )
 function divide(x: number, y: number): void {
     console.log(x / y);
 }
 
-#### create a function that takes a name and prints it without returning anything
+###  create a function that takes a name and prints it without returning anything
 function prints(str: string): void {
     console.log(str);
 }
@@ -104,7 +104,7 @@ PhoneBook(PersonDetails)
 function PhoneBook(PersonDetails) {
 persons.push(PersonDetails)
 }
-####  console.log(persons);
+###   console.log(persons);
 
 
 
