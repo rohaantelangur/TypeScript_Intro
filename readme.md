@@ -1,6 +1,6 @@
 ## TYPESCRIPT INTRO: 1
 
-#### create a type name with a string
+### create a type name with a string
 let first_name: string = "Rohaan"
 
 #### create a type age with a number
