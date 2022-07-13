@@ -106,8 +106,44 @@ persons.push(PersonDetails)
 }
 // console.log(persons);
 
+//TYPESCRIPT INTRO: 3
 
+//Write a function to retrieve the type of the user or admin
 
+interface User {
+    type: 'user';
+    name: string;
+    age: number;
+    occupation: string;
+}
+
+interface Admin {
+    type: 'admin';
+    name: string;
+    age: number;
+    role: string;
+}
+
+const Person3 : User={
+    type: 'user',
+    name: "Rohaan",
+    age: 24,
+    occupation: "Software Engineer",
+}
+
+const Person4 : Admin = {
+    type: 'admin',
+    name: "Rohaan",
+    age: 24,
+    role: "CTO",
+}
+
+const getType = (Person) => {
+    return Person.type
+}
+
+console.log(getType(Person3));
+console.log(getType(Person4));
 
 
 

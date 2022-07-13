@@ -53,4 +53,20 @@ PhoneBook(PersonDetails);
 function PhoneBook(PersonDetails) {
     persons.push(PersonDetails);
 }
-// console.log(persons);
+var Person3 = {
+    type: 'user',
+    name: "Rohaan",
+    age: 24,
+    occupation: "Software Engineer"
+};
+var Person4 = {
+    type: 'admin',
+    name: "Rohaan",
+    age: 24,
+    role: "CTO"
+};
+var getType = function (Person) {
+    return Person.type;
+};
+console.log(getType(Person3));
+console.log(getType(Person4));
